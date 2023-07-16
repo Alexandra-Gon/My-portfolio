@@ -5,14 +5,13 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { useState } from "react";
 
 const HomePage = () => {
-
-  const [name, setName] = useState("")
-  const [email, setEmail] = useState("")
-  const [message, setMessage] = useState("")
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const formSubmit = (e) => {
-    console.log(name, email, message)
-    alert("Your data has been sent successfully!")
+    console.log(name, email, message);
+    alert("Your data has been sent successfully!");
     e.preventDefault();
     setName("");
     setEmail("");
@@ -44,7 +43,7 @@ const HomePage = () => {
           <img
             className="imgPresentation"
             src={require("../../images/photo1.jpg")}
-            alt="photo developer"
+            alt="Presentation photo"
           />
           <h1 className="headerName">Alexandra Gonzalez</h1>
           <h2 className="headerProfession">
@@ -57,7 +56,7 @@ const HomePage = () => {
           <img
             className="imgProfile"
             src={require("../../images/photo2.jpg")}
-            alt="photo developer"
+            alt="profile photo"
           />
           <div>
             <h2>About me...</h2>
@@ -71,7 +70,15 @@ const HomePage = () => {
                 to constant professional development.
               </p>
             </div>
-            <button className="buttonProfile">Download CV</button>
+            <button className="buttonProfile">
+              <a
+                href="https://drive.google.com/file/d/1S9-sfjLtoOh7StAJoCVNS1TE3IEmkgaL/view"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Download CV
+              </a>
+            </button>
           </div>
         </div>
       </section>
@@ -164,6 +171,7 @@ const HomePage = () => {
                 className="cubesProjectsTitleImg"
                 href=" https://artenet.vercel.app/"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <div className="cubesProjects">
                   <img
@@ -182,6 +190,7 @@ const HomePage = () => {
                 className="cubesProjectsTitleImg"
                 href="https://auroradrinks.vercel.app/"
                 target="_blank"
+                rel="noreferrer noopener"
               >
                 <div className="cubesProjects">
                   <img
@@ -196,7 +205,12 @@ const HomePage = () => {
               <p className="textProject">Website</p>
             </div>
             <div className="projectContainer">
-              <a className="cubesProjectsTitleImg" href="http://nagovisualartist.wordpress.com" target="_blank">
+              <a
+                className="cubesProjectsTitleImg"
+                href="http://nagovisualartist.wordpress.com"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 <div className="cubesProjects">
                   <img
                     className="logoCubeProject"
@@ -222,8 +236,13 @@ const HomePage = () => {
           onSubmit={formSubmit}
         >
           <label>
-            <input className="inputForm" type="text" placeholder="Name" value={name}
-              onChange={(e) => setName(e.target.value)}/>
+            <input
+              className="inputForm"
+              type="text"
+              placeholder="Name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+            />
           </label>
           <label>
             <input
@@ -249,10 +268,20 @@ const HomePage = () => {
           </button>
         </form>
         <div className="iconContactContainer">
-          <a className="iconContact" href="#">
+          <a
+            className="iconContact"
+            href="https://github.com/Alexandra-Gon"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <GitHubIcon />{" "}
           </a>
-          <a className="iconContact" href="#">
+          <a
+            className="iconContact"
+            href="https://www.linkedin.com/in/alexandragon/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <LinkedInIcon />
           </a>
         </div>
