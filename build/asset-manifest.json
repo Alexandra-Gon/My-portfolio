@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.c942c8ff.css",
-    "main.js": "/static/js/main.67339866.js",
-    "static/media/photo2.jpg": "/static/media/photo2.4996ff7d8005cc2cf22f.jpg",
-    "static/media/profileBackground.jpg": "/static/media/profileBackground.2f1659c15a2f8d6649be.jpg",
-    "static/media/logoArtenet.png": "/static/media/logoArtenet.694d3ae0ac0a2459d388.png",
-    "static/media/photo1.jpg": "/static/media/photo1.94077c64ef9554fc9d6b.jpg",
-    "static/media/react-icon.svg.png": "/static/media/react-icon.svg.8a6fc0a24a800d1e0f4a.png",
-    "static/media/logoBlog.png": "/static/media/logoBlog.41a28e251fca314e1ea6.png",
-    "static/media/logoAuroraDrinks.png": "/static/media/logoAuroraDrinks.68173ae47d93ea26186e.png",
+    "main.css": "/static/css/main.d6ce20b3.css",
+    "main.js": "/static/js/main.9ce624ef.js",
+    "static/media/photo2.webp": "/static/media/photo2.472d6a3d99f067a55256.webp",
+    "static/media/profileBackground.webp": "/static/media/profileBackground.ea50e29957d05c4ffde1.webp",
+    "static/media/photo1.webp": "/static/media/photo1.57af765686484e580855.webp",
+    "static/media/logoArtenet.webp": "/static/media/logoArtenet.a04f7752fefffa379954.webp",
+    "static/media/react-icon.svg.webp": "/static/media/react-icon.svg.5e264db8037c950b4a1f.webp",
+    "static/media/logoBlog.webp": "/static/media/logoBlog.9af75200b573d9d9ad4a.webp",
+    "static/media/jsIcon.webp": "/static/media/jsIcon.96deb0d517fe611dc073.webp",
+    "static/media/logoAuroraDrinks.webp": "/static/media/logoAuroraDrinks.0e86f58907420433b85a.webp",
     "index.html": "/index.html",
-    "main.c942c8ff.css.map": "/static/css/main.c942c8ff.css.map",
-    "main.67339866.js.map": "/static/js/main.67339866.js.map"
+    "main.d6ce20b3.css.map": "/static/css/main.d6ce20b3.css.map",
+    "main.9ce624ef.js.map": "/static/js/main.9ce624ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.c942c8ff.css",
-    "static/js/main.67339866.js"
+    "static/css/main.d6ce20b3.css",
+    "static/js/main.9ce624ef.js"
   ]
 }

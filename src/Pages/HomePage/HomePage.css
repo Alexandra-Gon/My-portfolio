@@ -23,7 +23,7 @@
 
 .header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.692)),
-    url("../../images/profileBackground.jpg");
+    url("../../images/profileBackground.webp");
   background-size: cover;
   background-position: center;
   height: 450px;
@@ -360,6 +360,9 @@
   background-color: #be2b26;
   color: white;
 }
+
+/* FOOTER ICONS */
+
 .iconContactContainer {
   padding-top: 50px;
 }

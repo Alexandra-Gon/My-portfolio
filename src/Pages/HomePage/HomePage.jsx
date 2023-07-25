@@ -42,7 +42,7 @@ const HomePage = () => {
         <section id="Home" className="headerPresentation">
           <img
             className="imgPresentation"
-            src={require("../../images/photo1.jpg")}
+            src={require("../../images/photo1.webp")}
             alt="Presentation photo"
           />
           <h1 className="headerName">Alexandra Gonzalez</h1>
@@ -55,7 +55,7 @@ const HomePage = () => {
         <div className="profileContainer">
           <img
             className="imgProfile"
-            src={require("../../images/photo2.jpg")}
+            src={require("../../images/photo2.webp")}
             alt="profile photo"
           />
           <div>
@@ -93,7 +93,7 @@ const HomePage = () => {
                   <span className="hardSkill colorGray">
                     <img
                       className="iconSkill"
-                      src={require("../../images/react-icon.svg.png")}
+                      src={require("../../images/react-icon.svg.webp")}
                       alt=" React Icon"
                     />
                     React JS
@@ -103,7 +103,7 @@ const HomePage = () => {
                   <span className="hardSkill colorWhite">
                     <img
                       className="iconSkill"
-                      src={require("../../images/jsIcon.png")}
+                      src={require("../../images/jsIcon.webp")}
                       alt=" React Icon"
                     />
                     JavaScript
@@ -176,7 +176,7 @@ const HomePage = () => {
                 <div className="cubesProjects">
                   <img
                     className="logoCubeProject"
-                    src={require("../../images/logoArtenet.png")}
+                    src={require("../../images/logoArtenet.webp")}
                     alt="Artenet cube"
                   />
                   <h2 className="titleCubes">Artenet</h2>
@@ -195,7 +195,7 @@ const HomePage = () => {
                 <div className="cubesProjects">
                   <img
                     className="logoCubeProject"
-                    src={require("../../images/logoAuroraDrinks.png")}
+                    src={require("../../images/logoAuroraDrinks.webp")}
                     alt="Aurora Drinks cube"
                   />
                   <h2 className="titleCubes">Aurora Drinks</h2>
@@ -214,7 +214,7 @@ const HomePage = () => {
                 <div className="cubesProjects">
                   <img
                     className="logoCubeProject"
-                    src={require("../../images/logoBlog.png")}
+                    src={require("../../images/logoBlog.webp")}
                     alt="Movies cube"
                   />
                   <h2 className="titleCubes">Art Blog</h2>
@@ -257,8 +257,8 @@ const HomePage = () => {
             <textarea
               className="inputForm"
               placeholder="Your Message..."
-              rows={4}
-              cols={40}
+              cols="30"
+              rows="10"
               value={message}
               onChange={(e) => setMessage(e.target.value)}
             />
@@ -267,6 +267,7 @@ const HomePage = () => {
             SUBMIT
           </button>
         </form>
+
         <div className="iconContactContainer">
           <a
             className="iconContact"
