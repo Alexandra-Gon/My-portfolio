@@ -182,9 +182,9 @@ const HomePage = () => {
                   <h2 className="titleCubes">Artenet</h2>
                 </div>
               </a>
-
               <p className="textProject">E-commerce</p>
             </div>
+
             <div className="projectContainer">
               <a
                 className="cubesProjectsTitleImg"
@@ -201,9 +201,28 @@ const HomePage = () => {
                   <h2 className="titleCubes">Aurora Drinks</h2>
                 </div>
               </a>
-
               <p className="textProject">Website</p>
             </div>
+            
+            <div className="projectContainer">
+              <a
+                className="cubesProjectsTitleImg"
+                href="https://movie-land-club.vercel.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div className="cubesProjects">
+                  <img
+                    className="logoCubeProject"
+                    src={require("../../images/LogoMovies.webp")}
+                    alt="Movie Land Club cube"
+                  />
+                  <h2 className="titleCubes">Movie Land Club</h2>
+                </div>
+              </a>
+              <p className="textProject">Website</p>
+            </div>
+
             <div className="projectContainer">
               <a
                 className="cubesProjectsTitleImg"

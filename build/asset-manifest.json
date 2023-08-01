@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.d6ce20b3.css",
-    "main.js": "/static/js/main.9ce624ef.js",
+    "main.js": "/static/js/main.01aaea20.js",
     "static/media/photo2.webp": "/static/media/photo2.472d6a3d99f067a55256.webp",
     "static/media/profileBackground.webp": "/static/media/profileBackground.ea50e29957d05c4ffde1.webp",
     "static/media/photo1.webp": "/static/media/photo1.57af765686484e580855.webp",
     "static/media/logoArtenet.webp": "/static/media/logoArtenet.a04f7752fefffa379954.webp",
     "static/media/react-icon.svg.webp": "/static/media/react-icon.svg.5e264db8037c950b4a1f.webp",
     "static/media/logoBlog.webp": "/static/media/logoBlog.9af75200b573d9d9ad4a.webp",
+    "static/media/LogoMovies.webp": "/static/media/LogoMovies.27805c126a32e904aef4.webp",
     "static/media/jsIcon.webp": "/static/media/jsIcon.96deb0d517fe611dc073.webp",
     "static/media/logoAuroraDrinks.webp": "/static/media/logoAuroraDrinks.0e86f58907420433b85a.webp",
     "index.html": "/index.html",
     "main.d6ce20b3.css.map": "/static/css/main.d6ce20b3.css.map",
-    "main.9ce624ef.js.map": "/static/js/main.9ce624ef.js.map"
+    "main.01aaea20.js.map": "/static/js/main.01aaea20.js.map"
   },
   "entrypoints": [
     "static/css/main.d6ce20b3.css",
-    "static/js/main.9ce624ef.js"
+    "static/js/main.01aaea20.js"
   ]
 }
