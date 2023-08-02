@@ -29,9 +29,17 @@
   height: 450px;
 }
 .headerPresentation {
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
-  padding: 120px 0 80px;
+  padding: 120px 0;
 }
+@media (min-width: 768px) {
+  .headerPresentation {
+    padding: 120px 0 80px;
+  }
+}
+
 .imgPresentation {
   width: 120px;
   border-radius: 50%;

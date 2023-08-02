@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6ce20b3.css",
+    "main.css": "/static/css/main.ab062554.css",
     "main.js": "/static/js/main.01aaea20.js",
     "static/media/photo2.webp": "/static/media/photo2.472d6a3d99f067a55256.webp",
     "static/media/profileBackground.webp": "/static/media/profileBackground.ea50e29957d05c4ffde1.webp",
@@ -12,11 +12,11 @@
     "static/media/jsIcon.webp": "/static/media/jsIcon.96deb0d517fe611dc073.webp",
     "static/media/logoAuroraDrinks.webp": "/static/media/logoAuroraDrinks.0e86f58907420433b85a.webp",
     "index.html": "/index.html",
-    "main.d6ce20b3.css.map": "/static/css/main.d6ce20b3.css.map",
+    "main.ab062554.css.map": "/static/css/main.ab062554.css.map",
     "main.01aaea20.js.map": "/static/js/main.01aaea20.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6ce20b3.css",
+    "static/css/main.ab062554.css",
     "static/js/main.01aaea20.js"
   ]
 }
