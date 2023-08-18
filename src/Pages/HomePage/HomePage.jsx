@@ -43,7 +43,7 @@ const HomePage = () => {
           <img
             className="imgPresentation"
             src={require("../../images/photo1.webp")}
-            alt="Presentation photo"
+            alt="Presentation photo" loading="lazy"
           />
           <h1 className="headerName">Alexandra Gonzalez</h1>
           <h2 className="headerProfession">
@@ -55,8 +55,8 @@ const HomePage = () => {
         <div className="profileContainer">
           <img
             className="imgProfile"
-            src={require("../../images/photo2.webp")}
-            alt="profile photo"
+            src={require("../../images/profile.webp")} 
+            alt="profile photo" loading="lazy"
           />
           <div>
             <h2>About me...</h2>
