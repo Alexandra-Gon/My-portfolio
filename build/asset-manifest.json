@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab062554.css",
-    "main.js": "/static/js/main.18e6be28.js",
-    "static/media/profileBackground.webp": "/static/media/profileBackground.ea50e29957d05c4ffde1.webp",
-    "static/media/photo1.webp": "/static/media/photo1.57af765686484e580855.webp",
+    "main.css": "/static/css/main.442d0172.css",
+    "main.js": "/static/js/main.1cd772f1.js",
+    "static/media/profileBackground.webp": "/static/media/profileBackground.c9852cd0f76ff8a41581.webp",
     "static/media/logoArtenet.webp": "/static/media/logoArtenet.a04f7752fefffa379954.webp",
-    "static/media/profile.webp": "/static/media/profile.3aa554dd0bd202bbf343.webp",
+    "static/media/profile.webp": "/static/media/profile.837d79647738f368ecc2.webp",
     "static/media/react-icon.svg.webp": "/static/media/react-icon.svg.5e264db8037c950b4a1f.webp",
+    "static/media/photo1.webp": "/static/media/photo1.e06da440550eb1010a48.webp",
     "static/media/logoBlog.webp": "/static/media/logoBlog.9af75200b573d9d9ad4a.webp",
     "static/media/LogoMovies.webp": "/static/media/LogoMovies.27805c126a32e904aef4.webp",
     "static/media/jsIcon.webp": "/static/media/jsIcon.96deb0d517fe611dc073.webp",
     "static/media/logoAuroraDrinks.webp": "/static/media/logoAuroraDrinks.0e86f58907420433b85a.webp",
     "index.html": "/index.html",
-    "main.ab062554.css.map": "/static/css/main.ab062554.css.map",
-    "main.18e6be28.js.map": "/static/js/main.18e6be28.js.map"
+    "main.442d0172.css.map": "/static/css/main.442d0172.css.map",
+    "main.1cd772f1.js.map": "/static/js/main.1cd772f1.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab062554.css",
-    "static/js/main.18e6be28.js"
+    "static/css/main.442d0172.css",
+    "static/js/main.1cd772f1.js"
   ]
 }
