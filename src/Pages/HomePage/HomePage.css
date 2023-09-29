@@ -29,6 +29,7 @@
   height: 450px;
 }
 .headerPresentation {
+  max-width: 1200px;
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -114,6 +115,8 @@
   }
 }
 .textProfileContainer {
+  max-width: 12
+  ;
   margin-top: 60px;
   border-radius: 5px;
 }

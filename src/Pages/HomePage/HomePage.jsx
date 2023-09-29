@@ -47,7 +47,7 @@ const HomePage = () => {
           />
           <h1 className="headerName">Alexandra Gonzalez</h1>
           <h2 className="headerProfession">
-            I'm a <b>Front-End Developer</b> and <b>Visual Artist</b>
+            I'm a <b>Front-End Developer</b>
           </h2>
         </section>
       </header>
@@ -62,7 +62,7 @@ const HomePage = () => {
             <h2>About me...</h2>
             <div className="textProfileContainer">
               <p className="textProfile">
-                Web developer and Visual Arts professional focused on creating
+                Web developer focused on creating
                 responsive user interfaces using Frontend technologies such as
                 ReactJs, JavaScript, HTML5, CSS3, Git/GitHub versioning control
                 systems, and others. Focused on developing clear and
@@ -221,26 +221,6 @@ const HomePage = () => {
                 </div>
               </a>
               <p className="textProject">Website</p>
-            </div>
-
-            <div className="projectContainer">
-              <a
-                className="cubesProjectsTitleImg"
-                href="http://nagovisualartist.wordpress.com"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <div className="cubesProjects">
-                  <img
-                    className="logoCubeProject"
-                    src={require("../../images/logoBlog.webp")}
-                    alt="Movies cube"
-                  />
-                  <h2 className="titleCubes">Art Blog</h2>
-                </div>
-              </a>
-
-              <p className="textProject">Blog</p>
             </div>
           </div>
         </div>
