@@ -72,7 +72,7 @@ const HomePage = () => {
             </div>
             <button className="buttonProfile">
               <a
-                href="https://drive.google.com/drive/folders/1gNLA2vWhRq8ICoSg7wpBStCTAaxudt72"
+                href="https://drive.google.com/file/d/1PGsCD3lTx3iwKhbevzT24V8UWI8Uiz9R/view?usp=drive_link"
                 target="_blank"
                 rel="noreferrer noopener"
               >
