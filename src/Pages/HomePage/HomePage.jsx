@@ -222,6 +222,24 @@ const HomePage = () => {
               </a>
               <p className="textProject">Website</p>
             </div>
+            <div className="projectContainer">
+              <a
+                className="cubesProjectsTitleImg"
+                href="https://vocabulary-game-five.vercel.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div className="cubesProjects">
+                  <img
+                    className="logoCubeProject"
+                    src={require("../../images/logoGame.png")}
+                    alt="Vocabulary game website logo"
+                  />
+                  <h2 className="titleCubes">Vocabulary Game</h2>
+                </div>
+              </a>
+              <p className="textProject">Website</p>
+            </div>
           </div>
         </div>
       </section>
