@@ -43,7 +43,8 @@ const HomePage = () => {
           <img
             className="imgPresentation"
             src={require("../../images/photo1.webp")}
-            alt="Presentation photo" loading="lazy"
+            alt="Presentation photo"
+            loading="lazy"
           />
           <h1 className="headerName">Alexandra Gonzalez</h1>
           <h2 className="headerProfession">
@@ -55,22 +56,22 @@ const HomePage = () => {
         <div className="profileContainer">
           <img
             className="imgProfile"
-            src={require("../../images/profile.webp")} 
-            alt="profile photo" loading="lazy"
+            src={require("../../images/profile.webp")}
+            alt="profile photo"
+            loading="lazy"
           />
           <div>
             <h2>About me...</h2>
             <div className="textProfileContainer">
               <p className="textProfile">
-                Web developer focused on creating
-                responsive user interfaces using Frontend technologies such as
-                ReactJs, JavaScript, HTML5, CSS3, Git/GitHub versioning control
-                systems, and others. Focused on developing clear and
-                maintainable code, self-motivated to learn new skills and open
-                to constant professional development.
+                Web developer focused on creating responsive user interfaces
+                using Frontend technologies such as ReactJs, JavaScript, HTML5,
+                CSS3, Git/GitHub versioning control systems, and others. Focused
+                on developing clear and maintainable code, self-motivated to
+                learn new skills and open to constant professional development.
               </p>
             </div>
-            <button className="buttonProfile">
+            {/* <button className="buttonProfile">
               <a
                 href="https://drive.google.com/file/d/1PGsCD3lTx3iwKhbevzT24V8UWI8Uiz9R/view?usp=drive_link"
                 target="_blank"
@@ -78,7 +79,7 @@ const HomePage = () => {
               >
                 Download CV
               </a>
-            </button>
+            </button> */}
           </div>
         </div>
       </section>
@@ -169,6 +170,24 @@ const HomePage = () => {
             <div className="projectContainer">
               <a
                 className="cubesProjectsTitleImg"
+                href="https://vocabulary-game-five.vercel.app/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <div className="cubesProjects">
+                  <img
+                    className="logoCubeProject"
+                    src={require("../../images/logoGame.png")}
+                    alt="Vocabulary game website logo"
+                  />
+                  <h2 className="titleCubes">Vocabulary Game</h2>
+                </div>
+              </a>
+              <p className="textProject">Website</p>
+            </div>
+            <div className="projectContainer">
+              <a
+                className="cubesProjectsTitleImg"
                 href=" https://artenet.vercel.app/"
                 target="_blank"
                 rel="noreferrer noopener"
@@ -203,7 +222,7 @@ const HomePage = () => {
               </a>
               <p className="textProject">Website</p>
             </div>
-            
+
             <div className="projectContainer">
               <a
                 className="cubesProjectsTitleImg"
@@ -218,24 +237,6 @@ const HomePage = () => {
                     alt="Movie Land Club cube"
                   />
                   <h2 className="titleCubes">Movie Land Club</h2>
-                </div>
-              </a>
-              <p className="textProject">Website</p>
-            </div>
-            <div className="projectContainer">
-              <a
-                className="cubesProjectsTitleImg"
-                href="https://vocabulary-game-five.vercel.app/"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                <div className="cubesProjects">
-                  <img
-                    className="logoCubeProject"
-                    src={require("../../images/logoGame.png")}
-                    alt="Vocabulary game website logo"
-                  />
-                  <h2 className="titleCubes">Vocabulary Game</h2>
                 </div>
               </a>
               <p className="textProject">Website</p>
