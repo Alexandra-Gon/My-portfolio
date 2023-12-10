@@ -8,11 +8,16 @@
 }
 .navBar {
   max-width: 1200px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   padding: 20px 0;
   display: flex;
   justify-content: space-around;
+}
+@media (min-width: 768px) {
+  .navBar {
+    width: 80%;
+  }
 }
 
 @media (min-width: 450px) {
@@ -30,6 +35,7 @@
 /* HEADER */
 
 .header {
+  background-color: #202132;
   background-image: linear-gradient(rgba(0, 0, 0, 0.829), rgba(0, 0, 0, 0.692)),
     url("../../images/profileBackground.webp");
   background-size: cover;
@@ -38,13 +44,14 @@
 }
 .headerPresentation {
   max-width: 1200px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   padding: 120px 0;
 }
 @media (min-width: 768px) {
   .headerPresentation {
+    width: 80%;
     padding: 120px 0 80px;
   }
 }
@@ -98,13 +105,14 @@
 }
 .profileContainer {
   max-width: 1200px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   color: white;
 }
 @media (min-width: 768px) {
   .profileContainer {
+    width: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -155,10 +163,16 @@
   padding: 50px 0;
 }
 .sectionSkills {
-  width: 80%;
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
   color: white;
+}
+
+@media (min-width: 768px) {
+  .sectionSkills {
+    width: 80%;
+  }
 }
 .sectionSkills h2 {
   text-align: center;
@@ -250,7 +264,7 @@
   background-color: white;
 }
 .softSkills {
-  width: 40%;
+  width: 50%;
   border: 1px solid #db635c;
   border-radius: 5px;
   padding: 20px;
@@ -274,8 +288,13 @@
 }
 .sectionProjects {
   max-width: 1200px;
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
+}
+@media (min-width: 768px) {
+  .sectionProjects {
+    width: 80%;
+  }
 }
 .projectTitle {
   margin-bottom: 30px;
@@ -296,14 +315,14 @@
 
 @media (min-width: 768px) {
   .allCubesProjects {
-    gap: 40px;
+    gap: 30px;
   }
 }
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   .allCubesProjects {
     gap: 80px;
   }
-}
+} */
 .projectContainer {
   text-align: center;
 }
@@ -319,8 +338,8 @@
   color: white;
 }
 .cubesProjects {
-  width: 200px;
-  height: 200px;
+  width: 180px;
+  height: 180px;
   background-color: #4042645d;
   display: flex;
   flex-direction: column;
@@ -339,7 +358,7 @@
   --scale: 1.1;
 }
 .titleCubes {
-  font-size: 20px;
+  font-size: 17px;
 }
 
 /* CONTACT SECTION */
