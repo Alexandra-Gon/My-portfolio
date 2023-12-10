@@ -2,21 +2,22 @@ import "./HomePage.css";
 import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import { useState } from "react";
+// import { useState } from "react";
 
 const HomePage = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
+  // const [name, setName] = useState("");
+  // const [email, setEmail] = useState("");
+  // const [message, setMessage] = useState("");
 
-  const formSubmit = (e) => {
-    console.log(name, email, message);
-    alert("Your data has been sent successfully!");
-    e.preventDefault();
-    setName("");
-    setEmail("");
-    setMessage("");
-  };
+  // const formSubmit = (e) => {
+  //   console.log(name, email, message);
+  //   alert("Your data has been sent successfully!");
+  //   e.preventDefault();
+  //   setName("");
+  //   setEmail("");
+  //   setMessage("");
+  // };
+
   return (
     <>
       <nav className="nav">
@@ -38,12 +39,13 @@ const HomePage = () => {
           </li>
         </ul>
       </nav>
+
       <header className="header">
         <section id="Home" className="headerPresentation">
           <img
             className="imgPresentation"
             src={require("../../images/photo1.webp")}
-            alt="Presentation photo"
+            alt="Presentation"
             loading="lazy"
           />
           <h1 className="headerName">Alexandra Gonzalez</h1>
@@ -52,23 +54,20 @@ const HomePage = () => {
           </h2>
         </section>
       </header>
+
       <section id="Profile" className="sectionBackgroundProfile">
         <div className="profileContainer">
           <img
             className="imgProfile"
             src={require("../../images/profile.webp")}
-            alt="profile photo"
+            alt="profile"
             loading="lazy"
           />
           <div>
             <h2>About me...</h2>
             <div className="textProfileContainer">
               <p className="textProfile">
-                Web developer focused on creating responsive user interfaces
-                using Frontend technologies such as ReactJs, JavaScript, HTML5,
-                CSS3, Git/GitHub versioning control systems, and others. Focused
-                on developing clear and maintainable code, self-motivated to
-                learn new skills and open to constant professional development.
+              <b>Software developer</b> focused on creating single-page application-based websites using functional and reusable components. Proficient in developing responsive user interfaces with <b>Frontend</b> technologies such as <b>ReactJS, JavaScript, HTML5</b>, and <b>CSS3</b>. Skilled in managing component states through <b>Redux</b> and <b>Context</b>, as well as version control with <b>Git/GitHub</b>. Experience in developing educational and interactive video games. Oriented toward the development of clear and maintainable code, self-motivated to learn new skills, and open to constant professional development.
               </p>
             </div>
             {/* <button className="buttonProfile">
@@ -83,6 +82,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
       <section id="Skills" className="sectionBackgroundSkills">
         <div className="sectionSkills">
           <h2>Skills</h2>
@@ -163,6 +163,7 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
       <section id="Projects" className="sectionBackgroundProjects">
         <div className="sectionProjects">
           <h2 className="projectTitle">Projects</h2>
@@ -183,7 +184,7 @@ const HomePage = () => {
                   <h2 className="titleCubes">Vocabulary Game</h2>
                 </div>
               </a>
-              <p className="textProject">Website</p>
+              <p className="textProject">Game</p>
             </div>
             <div className="projectContainer">
               <a
@@ -244,10 +245,11 @@ const HomePage = () => {
           </div>
         </div>
       </section>
+
       <section id="Contact" className="backgroundContact">
-        <h2>Contact</h2>
-        <p>Get in touch</p>
-        <form
+        <h2>Get in touch</h2>
+        {/* <p>Get in touch</p> */}
+        {/* <form
           className="formContact"
           action="send"
           method="post"
@@ -284,7 +286,7 @@ const HomePage = () => {
           <button className="buttonContact" type="submit">
             SUBMIT
           </button>
-        </form>
+        </form> */}
 
         <div className="iconContactContainer">
           <a
@@ -293,7 +295,7 @@ const HomePage = () => {
             target="_blank"
             rel="noreferrer noopener"
           >
-            <GitHubIcon />{" "}
+            <GitHubIcon />
           </a>
           <a
             className="iconContact"
@@ -304,8 +306,10 @@ const HomePage = () => {
             <LinkedInIcon />
           </a>
         </div>
+        <p className="textEmail">alexandra.gonzalez.dev@gmail.com</p>
         <p className="textCopyrights">ALEXANDRA GONZALEZ ©2023</p>
       </section>
+
       <div className="backToTop">
         <a href="#Home">
           <KeyboardDoubleArrowUpIcon />

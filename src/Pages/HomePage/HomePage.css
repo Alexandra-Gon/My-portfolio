@@ -7,12 +7,20 @@
   z-index: 100;
 }
 .navBar {
+  max-width: 1200px;
   width: 80%;
   margin: 0 auto;
   padding: 20px 0;
   display: flex;
-  justify-content: right;
-  gap: 20px;
+  justify-content: space-around;
+}
+
+@media (min-width: 450px) {
+  .navBar {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+  }
 }
 .navBar li a {
   color: #db635c;
@@ -42,11 +50,13 @@
 }
 
 .imgPresentation {
-  width: 120px;
+  width: 140px;
   border-radius: 50%;
 }
 .headerName {
+  font-size: 35px;
   color: #db635c;
+  margin-top: 10px;
 }
 .headerProfession {
   color: white;
@@ -87,6 +97,7 @@
   padding: 50px 0;
 }
 .profileContainer {
+  max-width: 1200px;
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -115,9 +126,7 @@
   }
 }
 .textProfileContainer {
-  max-width: 12
-  ;
-  margin-top: 60px;
+  margin-top: 20px;
   border-radius: 5px;
 }
 .textProfile {
@@ -147,6 +156,7 @@
 }
 .sectionSkills {
   width: 80%;
+  max-width: 1200px;
   margin: 0 auto;
   color: white;
 }
@@ -263,6 +273,7 @@
   color: white;
 }
 .sectionProjects {
+  max-width: 1200px;
   width: 80%;
   margin: 0 auto;
 }
@@ -325,7 +336,7 @@
   border-radius: 50%;
 }
 .cubesProjects:hover {
-  --scale: 1.2;
+  --scale: 1.1;
 }
 .titleCubes {
   font-size: 20px;
@@ -375,7 +386,7 @@
 /* FOOTER ICONS */
 
 .iconContactContainer {
-  padding-top: 50px;
+  padding-top: 30px;
 }
 .iconContact {
   color: #db635c;
@@ -384,10 +395,14 @@
 .iconContact:hover {
   color: white;
 }
+
+.textEmail {
+  font-size: 12px;
+  color: rgb(194, 194, 194);
+}
 .textCopyrights {
   font-size: 12px;
   color: rgb(131, 131, 131);
-  margin-top: 20px;
 }
 
 /* BACK TO TOP */
