@@ -3,7 +3,7 @@ import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 // import { useState } from "react";
-import CubeProject from '../../Components/CubeProject/CubeProject';
+import CubeProject from "../../Components/CubeProject/CubeProject";
 // Images
 import logoVocabularyGame from "../../images/logosProjects/logoGame.webp";
 import logoArtenet from "../../images/logosProjects/logoArtenet.webp";
@@ -86,15 +86,6 @@ const HomePage = () => {
                 and open to constant professional development.
               </p>
             </div>
-            {/* <button className="buttonProfile">
-              <a
-                href="https://drive.google.com/file/d/1PGsCD3lTx3iwKhbevzT24V8UWI8Uiz9R/view?usp=drive_link"
-                target="_blank"
-                rel="noreferrer noopener"
-              >
-                Download CV
-              </a>
-            </button> */}
           </div>
         </div>
       </section>
@@ -110,7 +101,7 @@ const HomePage = () => {
                   <span className="hardSkill colorGray">
                     <img
                       className="iconSkill"
-                      src={require("../../images/react-icon.svg.webp")}
+                      src={require("../../images/logosTechnologies/react.webp")}
                       alt=" React Icon"
                     />
                     React JS
@@ -120,7 +111,7 @@ const HomePage = () => {
                   <span className="hardSkill colorWhite">
                     <img
                       className="iconSkill"
-                      src={require("../../images/jsIcon.webp")}
+                      src={require("../../images/logosTechnologies/js.webp")}
                       alt=" React Icon"
                     />
                     JavaScript
@@ -173,7 +164,6 @@ const HomePage = () => {
                 <li>Accountability</li>
                 <li>Creativity</li>
                 <li>Time management</li>
-                <li></li>
               </ul>
             </div>
           </div>
@@ -219,45 +209,6 @@ const HomePage = () => {
 
       <section id="Contact" className="backgroundContact">
         <h2>Get in touch</h2>
-        {/* <p>Get in touch</p> */}
-        {/* <form
-          className="formContact"
-          action="send"
-          method="post"
-          onSubmit={formSubmit}
-        >
-          <label>
-            <input
-              className="inputForm"
-              type="text"
-              placeholder="Name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
-            />
-          </label>
-          <label>
-            <input
-              className="inputForm"
-              type="email"
-              placeholder="Enter email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-            />
-          </label>
-          <label>
-            <textarea
-              className="inputForm"
-              placeholder="Your Message..."
-              cols="30"
-              rows="10"
-              value={message}
-              onChange={(e) => setMessage(e.target.value)}
-            />
-          </label>
-          <button className="buttonContact" type="submit">
-            SUBMIT
-          </button>
-        </form> */}
 
         <div className="iconContactContainer">
           <a
