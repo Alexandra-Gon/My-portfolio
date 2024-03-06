@@ -1,29 +1,15 @@
-import "./HomePage.css";
-import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-// import { useState } from "react";
 import CubeProject from "../../Components/CubeProject/CubeProject";
+import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
+import "./HomePage.css";
 // Images
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import logoVocabularyGame from "../../images/logosProjects/logoGame.webp";
 import logoArtenet from "../../images/logosProjects/logoArtenet.webp";
 import logoAuroraDrinks from "../../images/logosProjects/logoAuroraDrinks.webp";
 import logoMovieLandClub from "../../images/logosProjects/logoMovies.webp";
 
 const HomePage = () => {
-  // const [name, setName] = useState("");
-  // const [email, setEmail] = useState("");
-  // const [message, setMessage] = useState("");
-
-  // const formSubmit = (e) => {
-  //   console.log(name, email, message);
-  //   alert("Your data has been sent successfully!");
-  //   e.preventDefault();
-  //   setName("");
-  //   setEmail("");
-  //   setMessage("");
-  // };
-
   return (
     <>
       <nav className="nav">
@@ -174,13 +160,13 @@ const HomePage = () => {
         <div className="sectionProjects">
           <h2 className="projectTitle">Projects</h2>
           <div className="allCubesProjects">
-            <CubeProject
+            {/* <CubeProject
               url="https://vocabulary-game-five.vercel.app/"
               img={logoVocabularyGame}
               name="Vocabulary game"
               type="Game"
               description="Interactive educational games for Spanish language students"
-            />
+            /> */}
             <CubeProject
               url="https://artenet.vercel.app/"
               img={logoArtenet}
