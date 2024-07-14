@@ -1,0 +1,25 @@
+/* BACK TO TOP */
+
+.backToTop {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: 20px;
+  right: 20px;
+  background-color: #202132;
+  border: 1px solid #db635c;
+  border-radius: 50%;
+  transition: 0.3s;
+  transform: scale(var(--scale, 1));
+  transition: transform 0.25s;
+}
+.backToTop:hover {
+  border: 1px solid #be2b26;
+  --scale: 1.2;
+}
+.backToTop a {
+  color: white;
+}

@@ -1,0 +1,27 @@
+.nav {
+  background-color: #26253c83;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+.navBar {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (min-width: 450px) {
+  .navBar {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+  }
+}
+.navBar li a {
+  color: #db635c;
+  /* color: #dbc85c; */
+  font-weight: 600;
+}

@@ -1,229 +1,205 @@
-import CubeProject from "../../Components/CubeProject/CubeProject";
-import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp";
-import "./HomePage.css";
-// Images
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import GitHubIcon from "@mui/icons-material/GitHub";
-import logoVocabularyGame from "../../images/logosProjects/logoGame.webp";
-import logoArtenet from "../../images/logosProjects/logoArtenet.webp";
-import logoAuroraDrinks from "../../images/logosProjects/logoAuroraDrinks.webp";
-import logoMovieLandClub from "../../images/logosProjects/logoMovies.webp";
+import './HomePage.css';
+// Components
+import Container from '../../Components/Container/Container';
+// Carousel
+import CarouselProjects from '../../Components/CarouselProjects/CarouselProjects';
+//Images
+import profile from '../../images/profile.webp';
+import photo1 from '../../images/photo1.webp';
+
+// Icons Technologies
+import { FaReact } from 'react-icons/fa';
+import { IoLogoJavascript } from 'react-icons/io';
+import { FaHtml5 } from 'react-icons/fa';
+import { FaCss3Alt } from 'react-icons/fa';
+import { FaFigma } from 'react-icons/fa';
+import { SiRedux } from 'react-icons/si';
+import { FaGithub } from 'react-icons/fa';
+import { FaNode } from 'react-icons/fa';
+import { DiMysql } from 'react-icons/di';
+import { MdOutlinePhonelink } from 'react-icons/md';
+import { IoLogoFirebase } from 'react-icons/io5';
+import boostrapicon from '../../images/logosTechnologies/bootstrapicon.png';
+import { FaWordpressSimple } from 'react-icons/fa';
+import { SiCanva } from 'react-icons/si';
 
 const HomePage = () => {
   return (
-    <>
-      <nav className="nav">
-        <ul className="navBar">
-          <li>
-            <a href="#Home">Home</a>
-          </li>
-          <li>
-            <a href="#Profile">Profile</a>
-          </li>
-          <li>
-            <a href="#Skills">Skills</a>
-          </li>
-          <li>
-            <a href="#Projects">Projects</a>
-          </li>
-          <li>
-            <a href="#Contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <header className="header">
-        <section id="Home" className="headerPresentation">
-          <img
-            className="imgPresentation"
-            src={require("../../images/photo1.webp")}
-            alt="Presentation"
-            loading="lazy"
-          />
-          <h1 className="headerName">Alexandra Gonzalez</h1>
-          <h2 className="headerProfession">
-            I'm a <b>Front-End Developer</b>
-          </h2>
-        </section>
+    <main>
+      <header className='header'>
+        <Container>
+          <section id='Home' className='headerPresentation'>
+            <img
+              className='imgPresentation'
+              src={photo1}
+              alt='Presentation'
+              loading='lazy'
+            />
+            <h1 className='headerName'>ALEXANDRA GONZALEZ</h1>
+            <h2 className='headerProfession'>
+              I'm a <b>Front-End Developer</b>
+            </h2>
+          </section>
+        </Container>
       </header>
 
-      <section id="Profile" className="sectionBackgroundProfile">
-        <div className="profileContainer">
-          <img
-            className="imgProfile"
-            src={require("../../images/profile.webp")}
-            alt="profile"
-            loading="lazy"
-          />
-          <div>
-            <h2>About me...</h2>
-            <div className="textProfileContainer">
-              <p className="textProfile">
-                <b>Software developer</b> focused on creating single-page
-                application-based websites using functional and reusable
-                components. Proficient in developing responsive user interfaces
-                with <b>Frontend</b> technologies such as{" "}
-                <b>ReactJS, JavaScript, HTML5</b>, and <b>CSS3</b>. Skilled in
-                managing component states through <b>Redux</b> and{" "}
-                <b>Context</b>, as well as version control with{" "}
-                <b>Git/GitHub</b>. Experience in developing educational and
-                interactive video games. Oriented toward the development of
-                clear and maintainable code, self-motivated to learn new skills,
-                and open to constant professional development.
+      <section id='Profile' className='sectionBackgroundProfile'>
+        <Container>
+          <div className='profileContainer'>
+            <h2>ABOUT ME</h2>
+            <div className='textProfileContainer'>
+              <img
+                className='imgProfile'
+                src={profile}
+                alt='profile'
+                loading='lazy'
+              />
+              <p className='textProfile'>
+                Frontend developer with two years of experience specialized in
+                creating single page applications (SPA) using functional and
+                reusable components. Proficient in developing responsive user
+                interfaces with technologies such as ReactJS, JavaScript, HTML5
+                and CSS3. Expert in component state management with Redux,
+                version control with Git/GitHub and unit testing with Jest and
+                QA tester. I have a solid understanding of SEO practices and
+                microservices architecture. Backend development and integration
+                skills with technologies such as Node, Express, SQL/NoSQL.
+                Excellent self-management skills in independent and team
+                projects.
               </p>
             </div>
           </div>
-        </div>
+        </Container>
       </section>
 
-      <section id="Skills" className="sectionBackgroundSkills">
-        <div className="sectionSkills">
-          <h2>Skills</h2>
-          <div className="skillsContainer">
-            <div className="hardSkillsContainer">
-              <h3 className="skillsTitle">Hard</h3>
-              <ul className="ulHardSkillsContainer">
-                <li>
-                  <span className="hardSkill colorGray">
-                    <img
-                      className="iconSkill"
-                      src={require("../../images/logosTechnologies/react.webp")}
-                      alt=" React Icon"
-                    />
-                    React JS
-                  </span>
-                </li>
-                <li>
-                  <span className="hardSkill colorWhite">
-                    <img
-                      className="iconSkill"
-                      src={require("../../images/logosTechnologies/js.webp")}
-                      alt=" React Icon"
-                    />
-                    JavaScript
-                  </span>
-                </li>
-                <li>
-                  <span className="hardSkill colorBlue">HTML5</span>
-                </li>
-                <li>
-                  <span className="hardSkill colorGreen">CSS3</span>
-                </li>
-                <li>
-                  <span className="hardSkill colorViolet">Figma</span>
-                </li>
-                <li>
-                  <span className="hardSkill colorRosse">Redux</span>
-                </li>
-                <li>
-                  <span className="hardSkill colorWhite">Git/GitHub</span>
-                </li>
-                <li>
-                  <span className="hardSkill colorRosse">API-Rest</span>
-                </li>
-                <li>
-                  <span className="hardSkill colorRosse">
-                    Responssive Web Design
-                  </span>
-                </li>
-                <li>
-                  <span className="hardSkill colorGreen">Firebase</span>
-                </li>
-                <li>
-                  <span className="hardSkill colorViolet">Boostrap</span>
-                </li>
-                <li>
-                  <span className="hardSkill colorBlue">Wordpress</span>
-                </li>
-                <li>
-                  <span className="hardSkill colorWhite">Canva</span>
-                </li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="skillsTitle">Soft</h3>
-              <ul className="softSkills">
-                <li>Teamwork</li>
-                <li>Problem-solving</li>
-                <li>Self-taught</li>
-                <li>Communication skills</li>
-                <li>Accountability</li>
-                <li>Creativity</li>
-                <li>Time management</li>
-              </ul>
+      <section id='Skills' className='sectionBackgroundSkills'>
+        <Container>
+          <div className='sectionSkills'>
+            <h2>Skills</h2>
+            <div className='skillsContainer'>
+              <div className='hardSkillsContainer'>
+                <h3>Technologies</h3>
+                <ul className='ulHardSkillsContainer'>
+                  <li>
+                    <span className='hardSkill colorGray'>
+                      <FaReact /> React JS
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorWhite'>
+                      <IoLogoJavascript /> JavaScript
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorBlue'>
+                      <FaHtml5 /> HTML5
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorGreen'>
+                      <FaCss3Alt /> CSS3
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorWhite'>
+                      <FaNode /> Node JS
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorViolet'>
+                      <FaFigma /> Figma
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorRosse'>
+                      <SiRedux /> Redux
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorWhite'>
+                      <FaGithub /> Git/GitHub
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorRosse'>
+                      <MdOutlinePhonelink />
+                      Responssive Web Design
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorGreen'>
+                      <IoLogoFirebase /> Firebase
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorViolet'>
+                      <img
+                        className='iconSkill'
+                        src={boostrapicon}
+                        alt='Javascript icon'
+                      />{' '}
+                      Boostrap
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorWhite'>
+                      <DiMysql /> MySQL
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorWhite'>
+                      <SiCanva />
+                      Canva
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorBlue'>
+                      <FaWordpressSimple /> Wordpress
+                    </span>
+                  </li>
+                </ul>
+              </div>
+
+              <div className='softSkillsContainer'>
+                <h3>Soft</h3>
+                <ul className='softSkills'>
+                  <li>Teamwork</li>
+                  <li>Problem-solving</li>
+                  <li>Self-taught</li>
+                  <li>Communication skills</li>
+                  <li>Accountability</li>
+                  <li>Creativity</li>
+                  <li>Time management</li>
+                </ul>
+              </div>
             </div>
           </div>
-        </div>
+        </Container>
       </section>
 
-      <section id="Projects" className="sectionBackgroundProjects">
-        <div className="sectionProjects">
-          <h2 className="projectTitle">Projects</h2>
-          <div className="allCubesProjects">
-            {/* <CubeProject
-              url="https://vocabulary-game-five.vercel.app/"
-              img={logoVocabularyGame}
-              name="Vocabulary game"
-              type="Game"
-              description="Interactive educational games for Spanish language students"
-            /> */}
-            <CubeProject
-              url="https://artenet.vercel.app/"
-              img={logoArtenet}
-              name="Artenet"
-              type="E-commerce"
-              description="E-commerce of stationery services, accessories and gifts"
-            />
-            <CubeProject
-              url="https://auroradrinks.vercel.app/"
-              img={logoAuroraDrinks}
-              name="Aurora Drinks"
-              type="Website"
-              description="Website of different types of cocktails built from an API
-              "
-            />
-            <CubeProject
-              url="https://movie-land-club.vercel.app/"
-              img={logoMovieLandClub}
-              name="Movie Land Club"
-              type="Website"
-              description="Movie website built from an API and a blog section"
-            />
+      <section id='Projects' className='sectionBackgroundProjects'>
+        <Container>
+          <div className='sectionProjects'>
+            <h2 className='projectTitle'>Projects</h2>
+            <div className='projectContainer'>
+              <div className='projectDescription'>
+                <h3>Soluciones Digitales Innovadoras y Eficientes</h3>
+                <p>
+                  <br />
+                  He desarrollado una variedad de sitios web que facilitan la
+                  comunicación y la interacción con el público de manera
+                  eficiente y amigable. <br /> <br /> Mi experiencia incluye la
+                  creación de plataformas de servicios, páginas de aterrizaje
+                  (landing pages) y sitios web comerciales con ofertas de
+                  productos.
+                </p>
+              </div>
+              <CarouselProjects />
+            </div>
           </div>
-        </div>
+        </Container>
       </section>
-
-      <section id="Contact" className="backgroundContact">
-        <h2>Get in touch</h2>
-
-        <div className="iconContactContainer">
-          <a
-            className="iconContact"
-            href="https://github.com/Alexandra-Gon"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <GitHubIcon />
-          </a>
-          <a
-            className="iconContact"
-            href="https://www.linkedin.com/in/alexandragon/"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <LinkedInIcon />
-          </a>
-        </div>
-        <p className="textEmail">alexandra.gonzalez.dev@gmail.com</p>
-        <p className="textCopyrights">ALEXANDRA GONZALEZ ©2023</p>
-      </section>
-
-      <div className="backToTop">
-        <a href="#Home">
-          <KeyboardDoubleArrowUpIcon />
-        </a>
-      </div>
-    </>
+    </main>
   );
 };
 

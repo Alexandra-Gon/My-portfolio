@@ -1,0 +1,23 @@
+.carouselProjects {
+  width: 100%;
+  max-width: 500px;
+}
+
+.carouselProjects .slick-next {
+  right: 10px;
+}
+
+@media (min-width: 650px) {
+  .carouselProjects .slick-next {
+    right: -25px;
+  }
+}
+.carouselProjects .slick-prev::before {
+  display: none;
+}
+
+@media (min-width: 650px) {
+  .carouselProjects .slick-prev::before {
+    display: block;
+  }
+}
