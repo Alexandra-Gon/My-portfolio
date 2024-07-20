@@ -12,6 +12,7 @@ import { FaReact } from 'react-icons/fa';
 import { IoLogoJavascript } from 'react-icons/io';
 import { FaHtml5 } from 'react-icons/fa';
 import { FaCss3Alt } from 'react-icons/fa';
+import { SiAdobe } from 'react-icons/si';
 import { FaFigma } from 'react-icons/fa';
 import { SiRedux } from 'react-icons/si';
 import { FaGithub } from 'react-icons/fa';
@@ -37,7 +38,7 @@ const HomePage = () => {
             />
             <h1 className='headerName'>ALEXANDRA GONZALEZ</h1>
             <h2 className='headerProfession'>
-              I'm a <b>Front-End Developer</b>
+             <b>Desarrolladora Web</b>
             </h2>
           </section>
         </Container>
@@ -46,7 +47,7 @@ const HomePage = () => {
       <section id='Profile' className='sectionBackgroundProfile'>
         <Container>
           <div className='profileContainer'>
-            <h2>ABOUT ME</h2>
+            <h2>ACERCA DE MI</h2>
             <div className='textProfileContainer'>
               <img
                 className='imgProfile'
@@ -55,17 +56,7 @@ const HomePage = () => {
                 loading='lazy'
               />
               <p className='textProfile'>
-                Frontend developer with two years of experience specialized in
-                creating single page applications (SPA) using functional and
-                reusable components. Proficient in developing responsive user
-                interfaces with technologies such as ReactJS, JavaScript, HTML5
-                and CSS3. Expert in component state management with Redux,
-                version control with Git/GitHub and unit testing with Jest and
-                QA tester. I have a solid understanding of SEO practices and
-                microservices architecture. Backend development and integration
-                skills with technologies such as Node, Express, SQL/NoSQL.
-                Excellent self-management skills in independent and team
-                projects.
+              Desarrolladora Web con dos años de experiencia en la creación de aplicaciones web dinámicas y eficientes. Especializada en tecnologías modernas como React, JavaScript, HTML5 y CSS3. Experiencia en gestión de estados con Redux, control de versiones con Git/GitHub y realización de pruebas unitarias con Jest. Competente en el desarrollo de interfaces de usuario responsivas y una sólida comprensión del diseño web utilizando herramientas como Figma y suite Adobe. Además, poseo conocimientos en desarrollo Backend e integración con tecnologías como Node, Express, y bases de datos SQL/NoSQL. Comprometida con la escritura de código claro, mantenible y escalable, y automotivada para aprender nuevas habilidades. Excelente capacidad de autogestión en proyectos tanto independientes como en equipo. Nivel de inglés intermedio y disponibilidad para reubicación.
               </p>
             </div>
           </div>
@@ -75,10 +66,10 @@ const HomePage = () => {
       <section id='Skills' className='sectionBackgroundSkills'>
         <Container>
           <div className='sectionSkills'>
-            <h2>Skills</h2>
+            <h2>Habilidades</h2>
             <div className='skillsContainer'>
               <div className='hardSkillsContainer'>
-                <h3>Technologies</h3>
+                <h3>Tecnologías</h3>
                 <ul className='ulHardSkillsContainer'>
                   <li>
                     <span className='hardSkill colorGray'>
@@ -96,8 +87,18 @@ const HomePage = () => {
                     </span>
                   </li>
                   <li>
+                    <span className='hardSkill colorViolet'>
+                      <SiAdobe /> Suit Adobe
+                    </span>
+                  </li>
+                  <li>
                     <span className='hardSkill colorGreen'>
                       <FaCss3Alt /> CSS3
+                    </span>
+                  </li>
+                  <li>
+                    <span className='hardSkill colorBlue'>
+                      <FaWordpressSimple /> Wordpress
                     </span>
                   </li>
                   <li>
@@ -126,6 +127,12 @@ const HomePage = () => {
                       Responssive Web Design
                     </span>
                   </li>
+
+                  <li>
+                    <span className='hardSkill colorWhite'>
+                      <DiMysql /> MySQL
+                    </span>
+                  </li>
                   <li>
                     <span className='hardSkill colorGreen'>
                       <IoLogoFirebase /> Firebase
@@ -143,33 +150,23 @@ const HomePage = () => {
                   </li>
                   <li>
                     <span className='hardSkill colorWhite'>
-                      <DiMysql /> MySQL
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorWhite'>
                       <SiCanva />
                       Canva
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorBlue'>
-                      <FaWordpressSimple /> Wordpress
                     </span>
                   </li>
                 </ul>
               </div>
 
               <div className='softSkillsContainer'>
-                <h3>Soft</h3>
+                <h3>Habilidades blandas</h3>
                 <ul className='softSkills'>
-                  <li>Teamwork</li>
-                  <li>Problem-solving</li>
-                  <li>Self-taught</li>
-                  <li>Communication skills</li>
-                  <li>Accountability</li>
-                  <li>Creativity</li>
-                  <li>Time management</li>
+                  <li>Trabajo en equipo</li>
+                  <li>Resolución de problemas</li>
+                  <li>Autodidacta</li>
+                  <li>Habilidades de comunicación</li>
+                  <li>Responsabilidad</li>
+                  <li>Creatividad</li>
+                  <li>Gestión del tiempo</li>
                 </ul>
               </div>
             </div>
@@ -180,7 +177,7 @@ const HomePage = () => {
       <section id='Projects' className='sectionBackgroundProjects'>
         <Container>
           <div className='sectionProjects'>
-            <h2 className='projectTitle'>Projects</h2>
+            <h2 className='projectTitle'>Proyectos</h2>
             <div className='projectContainer'>
               <div className='projectDescription'>
                 <h3>Soluciones Digitales Innovadoras y Eficientes</h3>

@@ -1,6 +1,7 @@
 /* BACK TO TOP */
 
 .backToTop {
+  z-index: 999;
   height: 50px;
   width: 50px;
   position: fixed;

@@ -12,7 +12,7 @@ const Footer = () => {
     <footer id='Contact' className='backgroundContact'>
       <Container>
         <div className='footer'>
-          <h2>Get in touch</h2>
+          <h2>Contactar</h2>
           <div className='iconContactContainer'>
             <a
               className='iconContact'
