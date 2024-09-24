@@ -1,27 +1,89 @@
 .nav {
-  background-color: #26253c83;
+  background-color: #f5f5f5e3;
   height: 50px;
   width: 100%;
   position: fixed;
   top: 0;
   z-index: 100;
 }
-.navBar {
-  height: 100%;
+
+.navMobile {
   display: flex;
-  justify-content: space-around;
   align-items: center;
+  justify-content: end;
 }
 
-@media (min-width: 450px) {
-  .navBar {
-    display: flex;
-    justify-content: right;
-    gap: 20px;
+@media (min-width: 768px) {
+  .navMobile {
+    display: none;
   }
 }
-.navBar li a {
-  color: #db635c;
-  /* color: #dbc85c; */
+
+.navMobile button {
+  border: none;
+  background-color: #ffffff00;
+  cursor: pointer;
+  font-size: 35px;
+}
+
+.navMobileMenu {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.822);
+}
+
+@media (min-width: 768px) {
+  .navMobileMenu {
+    display: none;
+  }
+}
+
+.navMobileMenu button {
+  position: absolute;
+  top: 5px;
+  right: 13px;
+  border: none;
+  cursor: pointer;
+  font-size: 35px;
+  border: none;
+  background-color: #ffffff00;
+  color: white;
+}
+
+.navMobileMenu ul {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.navMobileMenu ul a {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.navDesktop {
+  display: none;
+}
+@media (min-width: 768px) {
+  .navDesktop {
+    display: block;
+  }
+}
+
+.navDesktop ul {
+  height: 100%;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 15px;
+}
+
+.navDesktop li a {
+  color: black;
   font-weight: 600;
 }

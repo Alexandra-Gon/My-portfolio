@@ -1,0 +1,179 @@
+.projects {
+  margin-top: 130px;
+}
+
+@media (min-width: 768px) {
+  .projects {
+    margin-top: 150px;
+  }
+}
+
+.projectsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+@media (min-width: 768px) {
+  .projectsContainer {
+    gap: 150px;
+  }
+}
+.projectsContainer section {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cardProject {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+}
+
+@media (min-width: 1000px) {
+  .cardProject {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+
+.cardProject img {
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  .cardProject img {
+    width: 100%;
+    grid-column: 2/4;
+  }
+}
+
+.cardProjectText {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 20px;
+}
+
+@media (min-width: 1000px) {
+  .cardProjectText {
+    max-width: 400px;
+  }
+}
+
+.cardProjectText h2 {
+  line-height: 32px;
+}
+
+.cardProjectText p {
+  font-size: 22px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.tags div {
+  background-color: #fff;
+  border: 1px solid #b4b4b4;
+  border-radius: 20px;
+  padding: 5px 15px;
+  color: #6e6e6e;
+  user-select: none;
+}
+
+/*Dropdown*/
+
+.dropdowns {
+  padding: 0px 8px;
+  border: none;
+}
+
+.dropdowns summary {
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+
+.dropdowns:hover summary {
+  color: #db635c;
+}
+
+.dropdownsInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px 0px 20px;
+}
+
+@media (min-width: 768px) {
+  .dropdownsInfo {
+    padding: 60px 20px 20px;
+  }
+}
+@media (min-width: 1000px) {
+  .dropdownsInfo {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.dropdownsInfo p {
+  text-align: justify;
+}
+
+@media (min-width: 1000px) {
+  .dropdownsInfo p {
+    max-width: 500px;
+  }
+}
+
+.dropdownsInfoImages {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 30px;
+}
+
+@media (min-width: 768px) {
+  .dropdownsInfoImages {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.dropdownsInfoImages img {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.prototipesLinks {
+  display: flex;
+  gap: 20px;
+  /* justify-content: space-around; */
+}
+
+.prototipesLinks a {
+  color: rgb(56, 56, 56);
+  font-style: italic;
+  font-size: 18px;
+  text-decoration: underline;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.prototipesLinks a:hover{
+  color: #db635c;
+}

@@ -1,0 +1,21 @@
+.cardSoftware {
+  width: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cardSoftwareImage {
+  max-width: 80px;
+}
+
+@media (min-width: 768px) {
+  .cardSoftwareImage {
+    max-width: 100px;
+  }
+}
+
+.cardSoftwareText {
+  max-width: 140px;
+  min-height: 100px;
+}

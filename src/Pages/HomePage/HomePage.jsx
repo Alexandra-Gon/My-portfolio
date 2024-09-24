@@ -1,197 +1,133 @@
-import './HomePage.css';
+import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 // Components
 import Container from '../../Components/Container/Container';
-// Carousel
-import CarouselProjects from '../../Components/CarouselProjects/CarouselProjects';
+import CardSoftware from '../../Components/CardSoftware/CardSoftware';
 //Images
-import profile from '../../images/profile.webp';
 import photo1 from '../../images/photo1.webp';
-
-// Icons Technologies
-import { FaReact } from 'react-icons/fa';
-import { IoLogoJavascript } from 'react-icons/io';
-import { FaHtml5 } from 'react-icons/fa';
-import { FaCss3Alt } from 'react-icons/fa';
-import { SiAdobe } from 'react-icons/si';
-import { FaFigma } from 'react-icons/fa';
-import { SiRedux } from 'react-icons/si';
-import { FaGithub } from 'react-icons/fa';
-import { FaNode } from 'react-icons/fa';
-import { DiMysql } from 'react-icons/di';
-import { MdOutlinePhonelink } from 'react-icons/md';
-import { IoLogoFirebase } from 'react-icons/io5';
-import boostrapicon from '../../images/logosTechnologies/bootstrapicon.png';
-import { FaWordpressSimple } from 'react-icons/fa';
-import { SiCanva } from 'react-icons/si';
+import proyectosMobile from '../../images/projectsImages/proyectosMobile.png';
+import proyectosDesktop from '../../images/projectsImages/proyectosDesktop.png';
+// Services
+import softwareList from '../../services/softwareList';
+// Styles
+import './HomePage.css';
 
 const HomePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
-    <main>
-      <header className='header'>
-        <Container>
-          <section id='Home' className='headerPresentation'>
-            <img
-              className='imgPresentation'
-              src={photo1}
-              alt='Presentation'
-              loading='lazy'
-            />
-            <h1 className='headerName'>ALEXANDRA GONZALEZ</h1>
-            <h2 className='headerProfession'>
-             <b>Desarrolladora Web</b>
-            </h2>
-          </section>
+    <main className='home'>
+      <header id='Home' className='header'>
+        <Container className='headerPresentation'>
+          <img
+            className='imgPresentation'
+            src={photo1}
+            alt='Presentation'
+            loading='lazy'
+          />
+          <div className='textPresentation'>
+            <h1 className='headerName'>Alexandra Gonzalez</h1>
+            <p className='headerProfession'>
+              Diseñadora UX/UI & Desarrolladora Frontend
+            </p>
+          </div>
         </Container>
       </header>
 
       <section id='Profile' className='sectionBackgroundProfile'>
-        <Container>
+        <Container className='subsection'>
+          <h2 className='profileTitle'>Acerca de mí</h2>
           <div className='profileContainer'>
-            <h2>ACERCA DE MI</h2>
             <div className='textProfileContainer'>
-              <img
-                className='imgProfile'
-                src={profile}
-                alt='profile'
-                loading='lazy'
-              />
-              <p className='textProfile'>
-              Desarrolladora Web con dos años de experiencia en la creación de aplicaciones web dinámicas y eficientes. Especializada en tecnologías modernas como React, JavaScript, HTML5 y CSS3. Experiencia en gestión de estados con Redux, control de versiones con Git/GitHub y realización de pruebas unitarias con Jest. Competente en el desarrollo de interfaces de usuario responsivas y una sólida comprensión del diseño web utilizando herramientas como Figma y suite Adobe. Además, poseo conocimientos en desarrollo Backend e integración con tecnologías como Node, Express, y bases de datos SQL/NoSQL. Comprometida con la escritura de código claro, mantenible y escalable, y automotivada para aprender nuevas habilidades. Excelente capacidad de autogestión en proyectos tanto independientes como en equipo. Nivel de inglés intermedio y disponibilidad para reubicación.
-              </p>
+              <h3>Soy una apasionada por el mundo digital</h3>
+              <div>
+                <p className='textProfile'>
+                  Soy <b>Diseñadora UX/UI</b> y <b>Desarrolladora Frontend</b>{' '}
+                  con experiencia en la creación de soluciones digitales que
+                  combinan creatividad, estética y funcionalidad. A lo largo de
+                  mis proyectos, he logrado adaptar la
+                  tecnología a las necesidades específicas de cada cliente, con un enfoque centrado en el desarrollo de productos que no solo
+                  alcancen los objetivos comerciales, sino que también
+                  proporcionen experiencias memorables y satisfactorias a los
+                  usuarios.
+                </p>
+                <br />
+                <p className='textProfile'>
+                  Soy una persona muy entusiasta y creativa, y siempre busco nuevos desafíos y oportunidades para
+                  continuar creciendo en el ámbito del diseño y desarrollo web.
+                </p>
+              </div>
+            </div>
+            <div className='profileSkills'>
+              <h3>Habilidades</h3>
+              <ul className='profileSkillstext'>
+                <li>Diseño UX/UI</li>
+                <li>Diseño de interacción</li>
+                <li>Arquitectura de la información</li>
+                <li>Sistemas de diseño</li>
+                <li>Enfoque analítico</li>
+                <li>Creatividad</li>
+              </ul>
             </div>
           </div>
         </Container>
       </section>
 
       <section id='Skills' className='sectionBackgroundSkills'>
-        <Container>
-          <div className='sectionSkills'>
-            <h2>Habilidades</h2>
-            <div className='skillsContainer'>
-              <div className='hardSkillsContainer'>
-                <h3>Tecnologías</h3>
-                <ul className='ulHardSkillsContainer'>
-                  <li>
-                    <span className='hardSkill colorGray'>
-                      <FaReact /> React JS
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorWhite'>
-                      <IoLogoJavascript /> JavaScript
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorBlue'>
-                      <FaHtml5 /> HTML5
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorViolet'>
-                      <SiAdobe /> Suit Adobe
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorGreen'>
-                      <FaCss3Alt /> CSS3
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorBlue'>
-                      <FaWordpressSimple /> Wordpress
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorWhite'>
-                      <FaNode /> Node JS
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorViolet'>
-                      <FaFigma /> Figma
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorRosse'>
-                      <SiRedux /> Redux
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorWhite'>
-                      <FaGithub /> Git/GitHub
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorRosse'>
-                      <MdOutlinePhonelink />
-                      Responssive Web Design
-                    </span>
-                  </li>
-
-                  <li>
-                    <span className='hardSkill colorWhite'>
-                      <DiMysql /> MySQL
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorGreen'>
-                      <IoLogoFirebase /> Firebase
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorViolet'>
-                      <img
-                        className='iconSkill'
-                        src={boostrapicon}
-                        alt='Javascript icon'
-                      />{' '}
-                      Boostrap
-                    </span>
-                  </li>
-                  <li>
-                    <span className='hardSkill colorWhite'>
-                      <SiCanva />
-                      Canva
-                    </span>
-                  </li>
-                </ul>
-              </div>
-
-              <div className='softSkillsContainer'>
-                <h3>Habilidades blandas</h3>
-                <ul className='softSkills'>
-                  <li>Trabajo en equipo</li>
-                  <li>Resolución de problemas</li>
-                  <li>Autodidacta</li>
-                  <li>Habilidades de comunicación</li>
-                  <li>Responsabilidad</li>
-                  <li>Creatividad</li>
-                  <li>Gestión del tiempo</li>
-                </ul>
-              </div>
-            </div>
+        <Container className='subsection'>
+          <h2 className='softwareTitle'>Software</h2>
+          <div className='containerCardSoftware'>
+            {softwareList().map((element, i) => {
+              return (
+                <CardSoftware
+                  image={element.image}
+                  title={element.title}
+                  text={element.text}
+                  key={i}
+                />
+              );
+            })}
           </div>
         </Container>
       </section>
 
-      <section id='Projects' className='sectionBackgroundProjects'>
-        <Container>
-          <div className='sectionProjects'>
-            <h2 className='projectTitle'>Proyectos</h2>
-            <div className='projectContainer'>
-              <div className='projectDescription'>
-                <h3>Soluciones Digitales Innovadoras y Eficientes</h3>
-                <p>
-                  <br />
-                  He desarrollado una variedad de sitios web que facilitan la
-                  comunicación y la interacción con el público de manera
-                  eficiente y amigable. <br /> <br /> Mi experiencia incluye la
-                  creación de plataformas de servicios, páginas de aterrizaje
-                  (landing pages) y sitios web comerciales con ofertas de
-                  productos.
-                </p>
+      <section id='Experience' className='sectionBackgroundExperience'>
+        <Container className='subsection'>
+          <div className='sectionExperience'>
+            <h2 className='experienceTitle'>Experiencia</h2>
+            <p>
+              He diseñado y desarrollado una variedad de sitios web que facilitan la
+              comunicación y la interacción con el público de manera eficiente y
+              amigable. Mi experiencia incluye la creación de plataformas de
+              servicios, páginas de aterrizaje (landing pages) y sitios web
+              comerciales con ofertas de productos.
+            </p>
+            <div className='experienceContainer'>
+              <div className='imageAndLinkExperienceContainer'>
+                <picture>
+                  <source srcSet={proyectosMobile} media='(max-width: 767px)' />
+                  <source
+                    srcSet={proyectosDesktop}
+                    media='(min-width: 768px)'
+                  />
+                  <img
+                    src={proyectosDesktop}
+                    className='imageResponsiveExperience'
+                    alt='Imagen que contiene tres proyectos realizados'
+                  />
+                </picture>
+                <Link to='/proyectos' className='experienceLink'>
+                  Ver proyectos
+                </Link>
               </div>
-              <CarouselProjects />
+
+              <div className='applicationExperience'>
+                <p>Diseño y prototipado</p>
+                <p>Diseño y desarrollo</p>
+                <p>Rediseño de interfaz</p>
+              </div>
             </div>
           </div>
         </Container>
