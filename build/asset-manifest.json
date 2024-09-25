@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d91895ca.css",
+    "main.js": "/static/js/main.05cc8232.js",
+    "static/media/proyectosMobile.png": "/static/media/proyectosMobile.86e2c7bde7feeba6f564.png",
+    "static/media/proyectosDesktop.png": "/static/media/proyectosDesktop.7a37af730abce9d7bb9a.png",
+    "static/media/pojectReiseño3.png": "/static/media/pojectReiseño3.4ffd427a60b37bf7ed9c.png",
+    "static/media/projectDiseñoDesarrollo2.png": "/static/media/projectDiseñoDesarrollo2.2fcf876a1e29a8230576.png",
+    "static/media/projectPrototipe.png": "/static/media/projectPrototipe.9fb826dfe1ff6c35ba81.png",
+    "static/media/projectDiseñoDesarrollo3.png": "/static/media/projectDiseñoDesarrollo3.5bb092e6d4b8abe61c17.png",
+    "static/media/pojectReiseño2.png": "/static/media/pojectReiseño2.2dad3416257017f8066b.png",
+    "static/media/projectDiseñoDesarrollo.png": "/static/media/projectDiseñoDesarrollo.7fc99a79d2e11020a12d.png",
+    "static/media/projectPrototipe3.png": "/static/media/projectPrototipe3.6dc0d6c4ec3686765a8d.png",
+    "static/media/pojectReiseño.png": "/static/media/pojectReiseño.048d2dd2c32fde9271e3.png",
+    "static/media/projectPrototipe2.png": "/static/media/projectPrototipe2.58bde6ff5b442a17b576.png",
+    "static/media/photo1.webp": "/static/media/photo1.e06da440550eb1010a48.webp",
+    "static/media/sketch1.png": "/static/media/sketch1.308a5c6341f459074ede.png",
+    "static/media/github.png": "/static/media/github.67f8667cbb15ed57f4de.png",
+    "static/media/xd.png": "/static/media/xd.3f14c4795df65a89560c.png",
+    "static/media/wordpress.png": "/static/media/wordpress.11ed091523e3152b651f.png",
+    "static/media/figma.png": "/static/media/figma.72fbc535ebe253a5dbc4.png",
+    "static/media/photoshop.png": "/static/media/photoshop.339f174c692e921a204a.png",
+    "static/media/elementor.png": "/static/media/elementor.52fc8d63ece30afdb34a.png",
+    "static/media/css-3.png": "/static/media/css-3.463e319bad8e0edf1ef7.png",
+    "static/media/html5.png": "/static/media/html5.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/ilustration.png": "/static/media/ilustration.c8306d9279929e8b8cfe.png",
+    "static/media/js.png": "/static/media/js.3dfb665e058d08c99f28.png",
+    "static/media/react.png": "/static/media/react.e627d8b7feb21a57995b.png",
+    "static/media/indesign.png": "/static/media/indesign.d630b298e5bf997a6193.png",
+    "index.html": "/index.html",
+    "main.d91895ca.css.map": "/static/css/main.d91895ca.css.map",
+    "main.05cc8232.js.map": "/static/js/main.05cc8232.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d91895ca.css",
+    "static/js/main.05cc8232.js"
+  ]
+}
