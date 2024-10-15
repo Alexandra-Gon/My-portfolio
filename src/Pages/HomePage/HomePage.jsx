@@ -30,7 +30,7 @@ const HomePage = () => {
           <div className='textPresentation'>
             <h1 className='headerName'>Alexandra Gonzalez</h1>
             <p className='headerProfession'>
-              Diseñadora UX/UI & Desarrolladora Frontend
+              Diseñadora Web & Desarrolladora Frontend
             </p>
           </div>
         </Container>
@@ -44,7 +44,7 @@ const HomePage = () => {
               <h3>Soy una apasionada por el mundo digital</h3>
               <div>
                 <p className='textProfile'>
-                  Soy <b>Diseñadora UX/UI</b> y <b>Desarrolladora Frontend</b>{' '}
+                  Soy <b>Diseñadora Web</b> y <b>Desarrolladora Frontend</b>{' '}
                   con experiencia en la creación de soluciones digitales que
                   combinan creatividad, estética y funcionalidad. A lo largo de
                   mis proyectos, he logrado adaptar la
